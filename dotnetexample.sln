@@ -51,6 +51,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck6", "health-chec
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "health-check-6", "health-check-6", "{FAA3163E-2E35-458B-A16F-33D0775FD978}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "new-redis-caching-package", "new-redis-caching-package", "{C48DA6FF-8685-480C-A387-F44380EC3753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewRedisCachingPackage", "new-redis-caching-package\NewRedisCachingPackage\NewRedisCachingPackage.csproj", "{10F0D50C-4BDF-4B82-B671-6E562BBCC76C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,10 @@ Global
 		{0284E84C-E8CF-4C10-8D71-9EFA9258564C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0284E84C-E8CF-4C10-8D71-9EFA9258564C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0284E84C-E8CF-4C10-8D71-9EFA9258564C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F0D50C-4BDF-4B82-B671-6E562BBCC76C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F0D50C-4BDF-4B82-B671-6E562BBCC76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F0D50C-4BDF-4B82-B671-6E562BBCC76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F0D50C-4BDF-4B82-B671-6E562BBCC76C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,6 +130,7 @@ Global
 		{AB4373F8-A6BA-4BD5-8E2A-70769BF10719} = {C28E4AD1-A817-4FB2-AA2C-B892AAAD49E2}
 		{B4DF847E-6AC8-4D0C-B17C-539A0715F83E} = {CFC5438C-7013-4E55-960B-5F7CFBF130DA}
 		{0284E84C-E8CF-4C10-8D71-9EFA9258564C} = {FAA3163E-2E35-458B-A16F-33D0775FD978}
+		{10F0D50C-4BDF-4B82-B671-6E562BBCC76C} = {C48DA6FF-8685-480C-A387-F44380EC3753}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {07BE65F7-E858-4D5E-974C-C5E2B05AB83C}
