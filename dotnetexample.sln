@@ -55,6 +55,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "new-redis-caching-package",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewRedisCachingPackage", "new-redis-caching-package\NewRedisCachingPackage\NewRedisCachingPackage.csproj", "{10F0D50C-4BDF-4B82-B671-6E562BBCC76C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "parameter-transformer", "parameter-transformer", "{E0989DB6-A023-4D91-8B4F-1089F4205381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterTransformer", "parameter-transformer\ParameterTransformer\ParameterTransformer.csproj", "{CA828D57-5A96-464D-A34A-27EC5639BC28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "slidingCache", "slidingCache", "{B444DA02-4038-4114-88B4-4AE2BBB8205E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slidingCacheConsole", "slidingCache\slidingCacheConsole\slidingCacheConsole.csproj", "{A08EDCAB-7AEB-4927-B064-5EA5A3ED8273}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +121,14 @@ Global
 		{10F0D50C-4BDF-4B82-B671-6E562BBCC76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10F0D50C-4BDF-4B82-B671-6E562BBCC76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10F0D50C-4BDF-4B82-B671-6E562BBCC76C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA828D57-5A96-464D-A34A-27EC5639BC28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA828D57-5A96-464D-A34A-27EC5639BC28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA828D57-5A96-464D-A34A-27EC5639BC28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA828D57-5A96-464D-A34A-27EC5639BC28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08EDCAB-7AEB-4927-B064-5EA5A3ED8273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08EDCAB-7AEB-4927-B064-5EA5A3ED8273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08EDCAB-7AEB-4927-B064-5EA5A3ED8273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08EDCAB-7AEB-4927-B064-5EA5A3ED8273}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,6 +147,8 @@ Global
 		{B4DF847E-6AC8-4D0C-B17C-539A0715F83E} = {CFC5438C-7013-4E55-960B-5F7CFBF130DA}
 		{0284E84C-E8CF-4C10-8D71-9EFA9258564C} = {FAA3163E-2E35-458B-A16F-33D0775FD978}
 		{10F0D50C-4BDF-4B82-B671-6E562BBCC76C} = {C48DA6FF-8685-480C-A387-F44380EC3753}
+		{CA828D57-5A96-464D-A34A-27EC5639BC28} = {E0989DB6-A023-4D91-8B4F-1089F4205381}
+		{A08EDCAB-7AEB-4927-B064-5EA5A3ED8273} = {B444DA02-4038-4114-88B4-4AE2BBB8205E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {07BE65F7-E858-4D5E-974C-C5E2B05AB83C}
